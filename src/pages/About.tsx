@@ -4,7 +4,7 @@ import { Avatar, AvatarImage } from "@/components/ui/avatar"
 export default function About() {
     return (
         <>
-            <div className="flex flex-col justify-center h-[calc(100dvh-64px)] items-center ">
+            <div className="flex flex-col justify-center h-[calc(100dvh-80px)] items-center">
                 <div className="flex gap-8">
                     <Avatar className="w-40 h-40">
                         <AvatarImage src="src\assets\profilee.jpg" className="rounded-sm" />
