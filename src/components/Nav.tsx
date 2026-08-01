@@ -7,17 +7,17 @@ import { Button } from "./ui/button"
 export default function Nav() {
     return (
         <>
-            <ButtonGroup className="mt-4 mb-4 w-full justify-center">
+            <ButtonGroup className="justify-center items-center z-50 px-1 sticky top-8 mt-8 backdrop-blur-sm">
                 <ButtonGroupSeparator />
-                <Button variant="ghost" size="lg" className="w-xs">
+                <Button variant="ghost" size="lg" className="w-2xs text-md h-12">
                     About
                 </Button>
                 <ButtonGroupSeparator />
-                <Button variant="ghost" size="lg" className="w-xs">
+                <Button variant="ghost" size="lg" className="w-2xs text-md h-12">
                     Experience
                 </Button>
                 <ButtonGroupSeparator />
-                <Button variant="ghost" size="lg" className="w-xs">
+                <Button variant="ghost" size="lg" className="w-2xs text-md h-12">
                     Projects
                 </Button>
                 <ButtonGroupSeparator />
