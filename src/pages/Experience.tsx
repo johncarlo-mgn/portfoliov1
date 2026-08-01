@@ -7,7 +7,7 @@ export default function Experience() {
         <>
             <div className="flex flex-col justify-start py-8 h-[calc(100dvh-80px)] items-center text-xs">
                 <Marker variant="separator">
-                    <MarkerContent className="text-md font-semibold">Experience</MarkerContent>
+                    <MarkerContent className="text-lg font-semibold">Experience</MarkerContent>
                 </Marker>
                 <div className="bg-muted p-1 border rounded-lg mt-4"></div>
                 <div className="flex h-full">
