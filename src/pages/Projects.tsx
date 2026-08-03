@@ -24,8 +24,8 @@ export default function Projects() {
                 </div>
 
                 <div className="flex py-8 gap-4 h-full w-full items-start">
-                    <SpotlightCard className="flex flex-col p-2 gap-4 w-full h-max rounded-sm shadow-xs border-accent bg-white text-black" spotlightColor="rgba(0, 0, 0, 0.05)">
-                        <div className="grayscale w-full h-50 shadow-xs border-accent rounded-sm bg-[url('\gesturespeak_project_image.png')] bg-contain bg-no-repeat bg-center" />
+                    <SpotlightCard className=" flex flex-col p-2 gap-4 w-full h-max rounded-sm shadow-xs border-accent bg-white text-black" spotlightColor="rgba(0, 0, 0, 0.05)">
+                        <div className=" w-full h-50 shadow-xs border rounded-sm bg-[url('\gesturespeak_cover.jpg')] bg-contain bg-no-repeat bg-center" />
                         <div className="flex flex-col gap-2 p-4">
                             <p className="text-lg font-semibold">GestureSpeak</p>
                             <p className="text-sm text-pretty">AI-Powered Filipino Sign Language Learning System</p>
@@ -33,7 +33,7 @@ export default function Projects() {
                     </SpotlightCard>
 
                     <SpotlightCard className="flex flex-col p-2 gap-4 w-full h-max rounded-sm shadow-xs border-accent bg-white text-black" spotlightColor="rgba(0, 0, 0, 0.05)">
-                        <div className="grayscale w-full h-50 shadow-xs border-accent rounded-sm bg-[url('\gesturespeak_project_image.png')] bg-contain bg-no-repeat bg-center" />
+                        <div className="grayscale w-full h-50 shadow-xs border rounded-sm bg-[url('\vaxme_cover.jpg')] bg-contain bg-no-repeat bg-center" />
                         <div className="flex flex-col gap-2 p-4">
                             <p className="text-lg font-semibold">Vaxme</p>
                             <p className="text-sm text-pretty">RHU-Barangay Centralized Vaccine Management System</p>
