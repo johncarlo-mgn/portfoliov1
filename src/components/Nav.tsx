@@ -27,36 +27,21 @@ export default function Nav() {
             >
                 <ButtonGroup className="justify-center items-center">
                     <ButtonGroupSeparator />
-                    <Button variant="ghost" size="lg" className="w-2xs text-md h-12">
+                    <Button variant="ghost" size="lg" className="w-2xs text-md h-12 hover:bg-accent-foreground hover:text-white">
                         About
                     </Button>
                     <ButtonGroupSeparator />
-                    <Button variant="ghost" size="lg" className="w-2xs text-md h-12">
+                    <Button variant="ghost" size="lg" className="w-2xs text-md h-12 hover:bg-accent-foreground hover:text-white">
                         Experience
                     </Button>
                     <ButtonGroupSeparator />
-                    <Button variant="ghost" size="lg" className="w-2xs text-md h-12">
+                    <Button variant="ghost" size="lg" className="w-2xs text-md h-12 hover:bg-accent-foreground hover:text-white">
                         Projects
                     </Button>
                     <ButtonGroupSeparator />
                 </ButtonGroup>
             </GlassSurface>
 
-            {/* <ButtonGroup className="justify-center items-center z-50 px-1 sticky top-8 mt-8 backdrop-blur-sm">
-                <ButtonGroupSeparator />
-                <Button variant="ghost" size="lg" className="w-2xs text-md h-12">
-                    About
-                </Button>
-                <ButtonGroupSeparator />
-                <Button variant="ghost" size="lg" className="w-2xs text-md h-12">
-                    Experience
-                </Button>
-                <ButtonGroupSeparator />
-                <Button variant="ghost" size="lg" className="w-2xs text-md h-12">
-                    Projects
-                </Button>
-                <ButtonGroupSeparator />
-            </ButtonGroup> */}
         </>
     )
 }
