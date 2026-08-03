@@ -9,7 +9,7 @@ export default function Experience() {
                 <Marker variant="separator">
                     <MarkerContent className="text-lg font-semibold">Experience</MarkerContent>
                 </Marker>
-                <div className="bg-muted p-1 border rounded-lg mt-4"></div>
+                <div className="bg-muted p-1 border rounded-xs mt-4"></div>
                 <div className="flex h-full">
                     <Separator orientation="vertical" />
                 </div>
