@@ -4,6 +4,7 @@ import { Marker, MarkerContent } from "@/components/ui/marker"
 import { Separator } from "@/components/ui/separator";
 import { ArrowUpRight } from 'lucide-react';
 import { NavLink } from 'react-router'
+import gesturespeak_cover from '@/assets/gesturespeak_cover.jpg';
 import vaxme_cover from '@/assets/vaxme_cover.jpg';
 
 
@@ -26,7 +27,10 @@ export default function Projects() {
 
                 <div className="flex py-8 gap-4 h-full w-full items-start">
                     <SpotlightCard className=" flex flex-col p-2 gap-4 w-full h-max rounded-sm shadow-xs border-accent bg-white text-black" spotlightColor="rgba(0, 0, 0, 0.05)">
-                        <div className={`w-full h-50 shadow-xs border rounded-sm bg-[url('${vaxme_cover}')] bg-contain bg-no-repeat bg-center`} />
+                        <div
+                            style={{ backgroundImage: `url('${vaxme_cover}')` }}
+                            className="w-full h-50 shadow-xs border rounded-sm bg-contain bg-no-repeat bg-center"
+                        />
                         <div className="flex flex-col gap-2 p-4">
                             <p className="text-lg font-semibold">GestureSpeak</p>
                             <p className="text-sm text-pretty">AI-Powered Filipino Sign Language Learning System</p>
@@ -35,10 +39,9 @@ export default function Projects() {
 
                     <SpotlightCard className="flex flex-col p-2 gap-4 w-full h-max rounded-sm shadow-xs border-accent bg-white text-black" spotlightColor="rgba(0, 0, 0, 0.05)">
                         <div
-                            style={{ backgroundImage: `url('${import.meta.env.BASE_URL}vaxme_cover.jpg')` }}
+                            style={{ backgroundImage: `url('${gesturespeak_cover}')` }}
                             className="w-full h-50 shadow-xs border rounded-sm bg-contain bg-no-repeat bg-center"
                         />
-
                         <div className="flex flex-col gap-2 p-4">
                             <p className="text-lg font-semibold">Vaxme</p>
                             <p className="text-sm text-pretty">RHU-Barangay Centralized Vaccine Management System</p>
